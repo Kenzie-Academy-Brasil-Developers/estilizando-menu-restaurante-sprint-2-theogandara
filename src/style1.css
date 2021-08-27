@@ -26,3 +26,48 @@ dd {margin: 0 0 12px 0; display: flex;}
 
 /* Draw a 2px dashed rosybrown border around the address/footer */
 address {padding: 10px;}
+
+/*background - map*/
+body{
+    background-image: url(img/map-bg.jpg);
+    font-family: 'lato';
+    font-size: 18px;
+}
+
+/*columns*/
+
+#menu{
+    column-count: 2;
+    column-gap: 25px;
+    column-rule: 2px dashed #bc8f8f;
+}
+
+/*footer*/
+
+footer{
+    border: 2px dashed #bc8f8f;
+}
+
+/*menu restaurant*/
+#tituloMenu{
+
+ font-family: ‘Supermercado One’;
+ font-size: 45px;
+ color: #5d4037 ;
+
+}
+
+.price{
+    color: #b22222;1
+
+}
+
+dl dt{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section h2{
+    color: #6d4c41;
+    font-variant-caps: small-caps;
+}

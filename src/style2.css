@@ -25,3 +25,39 @@ dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
 /* Right-align the text of the address/footer */
 
 /* draw a 2px thick black border around the starters and desserts sections of the menu */
+
+#starters{
+    border: solid 2px black;
+}
+
+#desserts{
+    border: solid 2px black;
+}
+
+footer{
+    text-align: right;
+}
+
+body{
+    font-family: 'Oswald';
+    font-size: 14px;
+}
+
+#tituloMenu{
+    font-weight: 100;
+    font-family: 'Bungee Inline';
+    font-size: 46px;
+}
+
+dl dt{
+    font-weight:bold;
+    font-size: 16px;
+}
+
+section h2{
+    text-transform: uppercase;
+}
+
+dt:after{
+    content: ',';
+  }
